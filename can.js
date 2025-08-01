@@ -27,7 +27,7 @@ class MyCan extends HTMLElement {
                 width: 100%;
 	            height: 100%;
 	            display: block;
-                background: url("images/CanText.svg") no-repeat center center;
+                background: url("/CanText.svg") no-repeat center center;
             }
 
         </style>
@@ -88,7 +88,7 @@ class MyCan extends HTMLElement {
         this.Loader = new GLTFLoader();
 
         this.Loader.load(
-            `models/${this.renderobject}/scene.gltf`,
+            `/models/${this.renderobject}/scene.gltf`,
 
             (gltf) => {
                 this.object = gltf.scene;

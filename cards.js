@@ -23,7 +23,7 @@ class MyComponent extends HTMLElement {
     column-gap: 16em;
     font-family: 'Rajdhani';
     overflow: hidden;
-    background-image: url("images/rectangle-113-6.svg");
+    background-image: url('/rectangle-113-6.svg');
     background-repeat:no-repeat;
     border-right: 4em solid rgba(94, 246, 255, 0.5);
     width:0%;
